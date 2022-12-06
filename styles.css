@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100;1,300&display=swap');
+html, body, a{
+    font-family: 'Roboto';
+    color: aliceblue;
+}
+body{
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-child{
+    flex: 1;
+}
+#bluebox{
+    display: flex;
+    background-color: #1F2937 ;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-even{
+    justify-content: space-evenly;
+}
+.align-center{
+    align-items: center;
+}
+.extra-bold{
+    font-weight: 900;
+}
+.text-large{
+    font-size: 2rem;
+}
+.black-font{
+    color:black;
+}
+.center{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+.blue-border{
+    border-color:rgb(0, 145, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 6.25%;
+    width: 125px;
+    height: 125px;
+}
+
+nav{
+    background-color: #041831;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav > div{
+    padding: 0.78125% 6.25% 0.78125% 6.25%;
+}
+.margin-sides{
+    margin: 0 6.25% 0 6.25%;
+}
+.margin-sides-large{
+    margin: 0 18% 0 18%;
+
+}
+.align-start{
+    align-items: flex-start;
+}
+
+
+nav > div > div{
+    width: 300px;
+}
+#rightnav > a{
+    text-decoration: none;
+    color: rgb(217, 225, 231);
+}
+
+
+#bluebox > div {
+    flex: 1;
+    text-align: left;
+    font-size: 2rem;
+}
+#intro >*{
+    text-align: left;
+    margin: auto;
+}
+#intro{
+    padding-left: 12.5%;
+    margin-right: 3.125%;
+}
+#intro > p{
+    font-size: 1rem;
+    color:antiquewhite;
+}
+#intro > button{
+    background-color: dodgerblue;
+    border-radius: 12.5px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 1rem;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-top: 3%;   
+}
+#cow{
+    padding-right: 12.5%;
+}
+
+nav >* {
+    flex: 1;
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+div>div>span{
+    color: rgb(217, 225, 231);
+    text-align: center;
+    padding: 6.25% 25% 6.25% 25%;
+}
+
+#companyLogo{
+    background-image: url("img/vibe.gif");
+    width: 100px;
+}
+#whitebox{
+    height: 400px;
+}
+#quotecontainer{
+    height:350px;
+    background-color: rgb(172, 172, 172);
+}
+#quotecontainer > div{
+    color: rgb(48, 48, 48);
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: lighter;
+    width: 50%;
+    text-align: left;
+    margin: 0;
+}
+#quotecontainer > div > div{
+    text-align: right;
+    color: black;
+    font-weight: 700;
+    font-size: small;
+    align-self: flex-end;
+}
+#signbox{
+    height: 200px;
+}
+#signbox > div{
+    background-color: rgb(0, 145, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 60%;
+    margin: 0 12.5% 0 12.5%;
+}
+
+#signbox > div > div > button{
+    border-radius: 10px;
+    background-color: inherit;
+    color: white;
+    font-size: medium;
+    height: 40px;
+    width: 100px;
+    border-color: aliceblue;
+    border-style: solid;
+}
